@@ -44,8 +44,6 @@ class Band {
     }
 }
 
-module.exports = Band;
-
 const bands = new Bands();
 
 bands.addBand(new Band('Queen'));

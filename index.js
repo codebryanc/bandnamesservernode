@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 // Node Server
-const server = require('https').createServer(app);
+const server = require('http').createServer(app);
 module.exports.io = require('socket.io')(server);
 require('./sockets/socket');
 
